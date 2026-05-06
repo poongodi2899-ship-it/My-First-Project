@@ -24,13 +24,47 @@ Fact
 - Pivot Tables
 - Charts (Bar, Line, Pie)
 - Slicers (Filters)
+  
+ ## 🛠 Dataset Description
+The project uses four datasets:
+ Customer Dataset: Contains customer-related information such as Customer ID and
+Customer Name
+ Product Dataset: Contains product details such as product ID and Product Name
+ Store Dataset: Contains store-related information such as Store ID and City
+ Sales Fact Dataset: Contains transactional data including Customer ID, product ID, Store ID,
+Quantity, and Price
+ 
 
-## 🔍 Dashboard Features
-- Monthly Sales Analysis
-- Category-wise Sales
-- Region-wise Performance
-- Top Selling Products
-- Profit Analysis
+## 🛠  Data Cleaning & Preparation
+Data cleaning was performed to ensure the quality and accuracy of the datasets. The following steps
+were carried out:
+ Removed duplicate records
+ Handled missing values
+ Corrected data formats (date, number, text)
+ Ensured consistency across all datasets
+ Additionally, Power Query was used (if applicable) to efficiently clean and transform the
+data.
+
+## 🛠  Data Integration
+The datasets were integrated using common keys:
+ Customer ID was used to connect with the Customer dataset
+ product ID was used to connect with the Product dataset
+ Store ID was used to connect with the Store dataset
+ XLOOKUP function was used to retrieve relevant fields such as Customer Name, Product
+Name, and Store City into the Sales Fact table.
+
+## 🛠  Data Processing
+After integration, additional calculations were performed:
+ Total Sales was calculated using the formula: Quantity × Price
+ An IF condition was used to categorize sales as High or Low
+These transformations helped prepare the data for further analysis.
+
+## 🛠  Analysis (Pivot Tables)
+Pivot tables were created to summarize the data:
+ Product-wise sales analysis to identify top-selling products`
+ Customer-wise sales analysis to identify key customers
+
+
 
 ## 📈 Key Insights
  Sales are not evenly distributed and are concentrated among specific customers, brands,
