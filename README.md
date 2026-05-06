@@ -67,9 +67,18 @@ Pivot tables were created to summarize the data:
 
 
 ## 📈 Key Insights
- Sales are not evenly distributed and are concentrated among specific customers, brands,
-and regions.
- The analysis helps in identifying high-performing segments and areas with growth potential.
+🔹 Descriptive Analytics Insight
+Sales are concentrated among a few customers and regions.
+Top products and brands generate the highest revenue.
+🔹 Diagnostic Analytics Insight
+Strong customer demand increased sales in certain regions.
+Low-performing products may lack proper marketing.
+🔹 Predictive Analytics Insight
+High-selling products are likely to continue growing.
+Sales trends can help predict future demand.
+🔹 Prescriptive Analytics Insight
+Focus marketing on top-performing products and regions.
+Improve loyalty programs to increase customer retention.
 
 ## 📊 Visualizations
 <img width="737" height="439" alt="E commerence sales" src="https://github.com/user-attachments/assets/a7349fa2-2ad1-4a13-b68d-6d92be62c049" />
